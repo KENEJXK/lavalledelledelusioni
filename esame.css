@@ -1,173 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 body {
-    background-color: rgba(12, 0, 19, 0.04);
+  background-color: rgba(12, 0, 19, 0.04);
 }
 /**testa del sito**/
 
 #hed {
-    position: fixed;
-    display: block;
-    border: 1px solid black;
-    background: grey;
-    width: 98.99vw;
+  position: fixed;
+  display: block;
+  border: 1px solid black;
+  background: grey;
+  width: 98.99vw;
 }
 #lista-1 {
-    margin: 1px;
-    display: flex;
-    margin: 0px 0px 5px 10px;
+  margin: 1px;
+  display: flex;
+  margin: 0px 0px 5px 10px;
 }
 .li {
-    display: flex;
-    margin: 100px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 300px;
+  display: flex;
+  margin: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 300px;
 }
 .li:hover {
-    color: red;
-    text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
 
 /** parte superiore**/
 h1 {
-    font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 #corpo {
-    border: 1px solid black;
-    background: rgb(252, 252, 252);
-    background: linear-gradient(
-        180deg,
-        rgba(252, 252, 252, 1) 0%,
-        rgba(228, 228, 108, 1) 100%
-    );
+  border: 1px solid black;
+  background: rgb(252, 252, 252);
+  background: linear-gradient(
+    180deg,
+    rgba(252, 252, 252, 1) 0%,
+    rgba(228, 228, 108, 1) 100%
+  );
 
-    padding: 0px 0px 100px 100px;
-    margin: 1px 1px;
-    height: none;
-    display: block;
-    outline: 0px;
+  padding: 0px 0px 100px 100px;
+  margin: 1px 1px;
+  height: none;
+  display: block;
+  outline: 0px;
 }
 
-article[class='marg'] {
-    position: relative;
-    left: 500px;
+article[class="marg"] {
+  position: relative;
+  left: 500px;
 }
 .pre {
-    font-family: 'Bebas Neue', cursive;
-    font-size: medium;
+  font-family: "Bebas Neue", cursive;
+  font-size: medium;
 }
-h2[class='pre'] {
-    margin-top: -10px;
+h2[class="pre"] {
+  margin-top: -10px;
 }
-h1[class='pre'] {
-    background-color: white;
-    width: 450px;
-    font-size: 90px;
-    padding-left: 10px;
+h1[class="pre"] {
+  background-color: white;
+  width: 450px;
+  font-size: 90px;
+  padding-left: 10px;
 }
 
-h1[class='pre'] > span[id='pre testo'] {
-    color: red;
+h1[class="pre"] > span[id="pre testo"] {
+  color: red;
 }
 
 #bott {
-    font-family: none;
-    background-color: azure;
-    border: 1px solid black;
-    padding: 5px;
-    width: 90px;
-    height: 35px;
-    text-align: center;
-    padding-left: 1px;
+  font-family: none;
+  background-color: azure;
+  border: 1px solid black;
+  padding: 5px;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  padding-left: 1px;
 }
 #bott:hover {
-    background-color: black;
-    color: white;
-    text-decoration: underline;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
 }
 #prof {
-    border: 1px solid black;
-    width: 250px;
-    height: 250px;
-    position: relative;
-    left: ;
-    right: 300px;
-    top: 330px;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: ;
+  right: 300px;
+  top: 330px;
 }
 .marg {
-    margin: 0px;
+  margin: 0px;
 }
 
 /**parte centrale**/
 #titolo-profilo,
 #descrizione-profilo {
-    font-family: none;
-    text-align: center;
+  font-family: none;
+  text-align: center;
 }
 #immagine-profilo {
-    border-radius: 50px;
-    position: relative;
-    left: 46.1vw;
-    border: 1px solid black;
+  border-radius: 50px;
+  position: relative;
+  left: 46.1vw;
+  border: 1px solid black;
 }
 
 #titolo-profilo {
-    font-family: 'Bebas Neue', cursive;
-    position: relative;
-    left: 5px;
+  font-family: "Bebas Neue", cursive;
+  position: relative;
+  left: 5px;
 }
 #descrizione-profilo {
-    display: block;
-    margin-top: 1px;
+  display: block;
+  margin-top: 1px;
 
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 #dettagli-su-di-me {
-    margin-left: 150px;
-    position: relative;
-    bottom: 117px;
-    left: 250px;
+  margin-left: 150px;
+  position: relative;
+  bottom: 117px;
+  left: 250px;
 }
 #dettagli-su-di-me > section > h2 {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #dettagli-su-di-me > section > h2 + p {
-    font-family: 'Rubik', sans-serif;
-    line-height: 35px;
+  font-family: "Rubik", sans-serif;
+  line-height: 35px;
 }
 #dettagli-personali {
-    width: 250px;
-    padding: 10px;
-    margin-left: 100px;
-    position: relative;
-    left: 1200px;
-    bottom: 335px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 100px;
+  position: relative;
+  left: 1200px;
+  bottom: 335px;
 
-    line-height: 35px;
+  line-height: 35px;
 }
 
 /* parte inferiore */
 .marg-2 {
-    position: relative;
-    left: 1vw;
-    padding: 5vw;
+  position: relative;
+  left: 1vw;
+  padding: 5vw;
 }
 #titolo-2,
 #paragrafo-2 {
-    text-align: center;
+  text-align: center;
 }
 #bott-2 {
-    position: relative;
-    left: 37vw;
-    top: 2vw;
-    background-color: black;
-    color: white;
-    padding: 10px;
+  position: relative;
+  left: 37vw;
+  top: 2vw;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 #bott-2:hover {
-    background-color: white;
-    color: black;
-    text-decoration: underline;
+  background-color: white;
+  color: black;
+  text-decoration: underline;
 }
